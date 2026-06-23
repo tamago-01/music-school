@@ -1,0 +1,42 @@
+@use "../../foundation/variable" as *;
+
+.p-blog {
+  padding-block: 2rem 19.2rem;
+
+  @include pc {
+    padding-block: 3.4rem 20.5rem;
+  }
+
+  &__wrapper {
+    // padding-bottom: 19rem;
+  }
+
+  &__contents {
+    margin-top: 3.5rem;
+    display: grid;
+    gap: 3.7rem;
+
+    @include pc {
+      margin-top: 3.6rem;
+      margin-bottom: 3.7rem;
+      display: flex;
+      gap: 5rem;
+    }
+  }
+
+  &__date {
+    display: grid;
+    place-items: end;
+    padding-top: 1rem;
+  }
+
+  &__heading {
+    padding-top: 3rem;
+
+    @include pc {
+      padding-top: 2rem;
+      font-size: 2rem;
+      line-height: calc(25 / 20);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@use "../../foundation/variable" as *;
+
+.p-about {
+  padding-block: 4.9rem 4rem;
+
+  @include pc {
+    padding-block: 7rem 6.3rem;
+  }
+
+  &__text {
+    color: #ffffff;
+    margin-top: 1.4rem;
+
+    @include pc {
+        margin-top: 2.5rem;
+    }
+  }
+ 
+}

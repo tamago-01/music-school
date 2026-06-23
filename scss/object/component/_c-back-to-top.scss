@@ -1,0 +1,30 @@
+@use "../../foundation/variable" as *;
+
+.c-back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 38.1rem;
+  z-index: 100;
+  width: 68px;
+  height: 68px;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.4s,
+    visibility 0.4s;
+  clip-path: circle(50%);
+
+  @include pc {
+    right: 11.5rem;
+    bottom: 36.1rem;
+  }
+
+  &.is-show {
+    opacity: 1;
+    visibility: visible;
+
+    @include pc-hover {
+      opacity: 0.7;
+    }
+  }
+}

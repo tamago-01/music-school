@@ -1,0 +1,135 @@
+@use "../../foundation/variable" as *;
+
+.p-qa {
+  padding-block: 2.8rem 3rem;
+
+  @include pc {
+    padding-block: 5.2rem 4rem;
+  }
+
+  &__contents {
+    margin-top: 3.5rem;
+
+    @include pc {
+      margin-top: 3.6rem;
+    }
+  }
+
+  &__box {
+    border-top: #000 solid 0.5px;
+
+    &:last-child {
+      border-bottom: #000 solid 0.5px;
+    }
+    &.is-open .p-qa__item-head::after {
+      transform: translateY(-50%) rotate(180deg);
+    }
+  }
+
+  &__item-head {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    position: relative;
+    padding-block: 1.7rem 0.78rem;
+    list-style: none;
+    cursor: pointer;
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    @include pc {
+      padding-left: 1.9rem;
+      padding-block: 1.7rem 0.9rem;
+      gap: 1rem;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: height 0.3s;
+      right: 1.5rem;
+      width: 1.36rem;
+      height: 0.924rem;
+      background: url(../img/faq-arrow.svg) no-repeat center center / contain;
+
+      @include pc {
+        right: 2.9rem;
+        height: 1.3rem;
+      }
+    }
+  }
+
+  &__item-head-icon {
+    display: grid;
+    place-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    line-height: calc(30 / 20);
+    font-weight: 700;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+  }
+
+  &__item-head-text {
+    width: 23.3rem;
+
+    @include pc {
+      width: auto;
+      font-size: 17px;
+      line-height: calc(30 / 17);
+    }
+  }
+
+  &__a-box {
+    display: none;
+    background-color: rgba(203, 0, 0, 0.102);
+
+    @include pc {
+      padding-left: 1.9rem;
+      padding-block: 2rem .9rem;
+    }
+  }
+
+  &__a-box-item {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 1.7rem;
+    padding-bottom: 0.8rem;
+    transition: height 0.3s ease;
+    @include pc {
+      gap: 1rem;
+      padding-top: 0;
+
+    }
+  }
+
+  &__item-a-icon {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    line-height: calc(30 / 20);
+    font-weight: 700;
+    color: #fff;
+    background-color: $color-main;
+    border-radius: 50%;
+  }
+
+  &__item-a-text {
+    width: 23.3rem;
+
+    @include pc {
+      width: auto;
+      font-size: 1.7rem;
+      line-height: calc(30 / 17);
+    }
+  }
+}

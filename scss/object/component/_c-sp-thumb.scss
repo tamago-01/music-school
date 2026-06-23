@@ -1,0 +1,11 @@
+@use "../../foundation/variable" as *;
+
+.c-sp-thumb {
+  width: 100%;
+  aspect-ratio: 335 / 200;
+  object-fit: cover;
+
+  @include pc {
+    aspect-ratio: auto;
+  }
+}
