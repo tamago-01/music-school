@@ -25,12 +25,18 @@
   }
 
   &__item-img {
+    width: 100%;
+
     @include pc {
+      aspect-ratio: auto;
       width: calc(350 / 880 * 100%);
       flex-shrink: 0;
     }
 
     img {
+      width: 100%;
+      aspect-ratio: 335 / 200;
+      object-fit: cover;
       @include pc {
         width: 100%;
         aspect-ratio: 350 / 247;
@@ -39,28 +45,13 @@
     }
   }
 
-  &__item-textarea1 {
+  &__item-textarea {
     margin-top: 3rem;
 
     @include pc {
-      margin-top: 0.9rem;
+      margin-top: 0rem;
     }
-  }
 
-  &__item-textarea2 {
-    margin-top: 3rem;
-
-    @include pc {
-      margin-top: -0.1rem;
-    }
-  }
-
-  &__item-textarea3 {
-    margin-top: 3rem;
-
-    @include pc {
-      margin-top: -0.1rem;
-    }
   }
 
   &__bar {
@@ -73,13 +64,22 @@
   }
 
   &__heading {
+    text-align: left;
+
     @include pc {
+      font-size: 2.2rem;
+      line-height: calc(33 / 22);
       padding-left: 5rem;
     }
   }
 
   &__body-text {
+    // font-size: 1.6rem;
+    // line-height: calc(30 / 16);
+
     @include pc {
+      // font-size: 1.8rem;
+      // line-height: calc(33 / 18);
       padding-left: 5rem;
       margin-top: 3.8rem;
     }

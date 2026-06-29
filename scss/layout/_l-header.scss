@@ -1,9 +1,9 @@
 @use "../foundation/variable" as *;
 
 .l-header {
-  position: relative;
-  // top: 0;
-  // left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 999;
   height: 5rem;

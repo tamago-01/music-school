@@ -8,7 +8,7 @@
 $base-pc: 1080;
 $swiper-width: 880;
 $arrow-space: 45;
-$arrow-top-pixel: 168px;
+$arrow-top-pixel: 168;
 $gallery-total-width: 970;
 
 .p-voice {
@@ -52,10 +52,6 @@ $gallery-total-width: 970;
   }
 
   &__heading {
-    font-size: 2.2rem;
-    line-height: calc(33 / 22);
-    font-weight: 700;
-    color: #fff;
     text-align: center;
 
     @include pc {
@@ -72,6 +68,11 @@ $gallery-total-width: 970;
     line-height: calc(30 / 18);
     color: #fff;
     margin-top: 1rem;
+
+    @include pc {
+      font-size: 1.8rem;
+      line-height: calc(33 / 18);
+    }
   }
 
   .gallery__prev,

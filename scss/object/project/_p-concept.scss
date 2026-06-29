@@ -15,11 +15,15 @@
   }
 
   &__text {
+    font-size: 1.8rem;
+    line-height: calc(30 / 18);
+    text-align: left;
     margin-top: 0.7rem;
     span {
       display: inline-block;
     }
     @include pc {
+      text-align: center;
       margin-top: 1.7rem;
     }
   }
@@ -87,10 +91,4 @@
       line-height: calc(50 / 23);
     }
   }
-}
-
-.c-text {
-  font-size: 1.8rem;
-  line-height: calc(30 / 18);
-  text-align: center;
 }

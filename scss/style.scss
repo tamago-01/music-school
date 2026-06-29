@@ -5,14 +5,18 @@
 @use "layout/l-header";
 @use "layout/l-footer";
 @use "object/component/c-section-title";
-@use "object/component/c-sp-thumb";
-@use "object/component/c-heading";
-@use "object/component/c-body-text";
-@use "object/component/c-blog";
 @use "object/component/c-contact-btn";
 @use "object/component/c-back-to-top";
 @use "object/component/c-breadcrumbs";
 @use "object/component/c-kv";
+@use "object/component/c-heading";
+@use "object/component/c-heading--white";
+@use "object/component/c-heading--red";
+@use "object/component/c-heading--sm";
+@use "object/component/c-text";
+@use "object/component/c-category";
+@use "object/component/c-pagination";
+
 @use "object/project/p-top-mv";
 @use "object/project/p-concept";
 @use "object/project/p-about";
@@ -23,3 +27,4 @@
 @use "object/project/p-blog";
 @use "object/project/p-price";
 @use "object/project/p-plan";
+@use "object/project/p-blog-list";

@@ -59,17 +59,21 @@
   }
 
   &__heading {
-    font-size: 2.2rem;
-    line-height: calc(33 / 22);
-    font-weight: 700;
-    color: $color-main;
+    // font-size: 2.2rem;
+    // line-height: calc(33 / 22);
+    // font-weight: 700;
+    // color: $color-main;
     width: 19.2rem;
     align-items: center;
   }
   &__body-text {
+    font-size: 1.6rem;
+    line-height: calc(30 / 16);
     margin-top: 0.8rem;
 
     @include pc {
+      font-size: 1.8rem;
+      line-height: calc(33 / 18);
       margin-top: -0.3rem;
     }
   }

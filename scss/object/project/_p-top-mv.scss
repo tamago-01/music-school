@@ -5,13 +5,13 @@
   width: 100%;
   height: auto;
   aspect-ratio: 375 / 550;
-  // margin-top: 5rem;
+  margin-top: 5rem;
 
   @include pc {
     width: 100%;
     aspect-ratio: 1080 / 470;
     object-fit: cover;
-    // margin-top: 8rem;
+    margin-top: 8rem;
   }
 
   &__overlay {
