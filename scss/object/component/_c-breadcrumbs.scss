@@ -8,20 +8,22 @@
     display: flex;
     column-gap: 2rem;
     align-items: center;
-    height: 3.6rem;
 
     @include pc {
-      height: 5rem;
       column-gap: 1.9rem;
     }
   }
-
-  li:not(:last-child)::after {
-    content: ">";
-    margin-left: 2rem;
+  a {
+    display: inline-block;
+    font-size: 1.6rem;
+    // padding-block: 0.3rem;
 
     @include pc {
-      margin-left: 1.8rem;
+      padding-block: 1rem;
     }
+  }
+
+  .c-breadcrumbs__arrow {
+    margin-left: 1.2rem;
   }
 }

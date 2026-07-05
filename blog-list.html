@@ -23,7 +23,7 @@
 <body>
     <div id="container">
         <header class="l-header">
-            <div class="inner">
+            <div class="l-inner">
                 <h1 class="l-header__logo">
                     <a href="#">
                         <img src="./img/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
@@ -66,17 +66,19 @@
                     <h2>ブログ</h2>
                 </div>
             </div>
-            <div class="p-plan__breadcrumbs c-breadcrumbs">
-                <div class="inner">
+            <div class="p-blog-list__breadcrumbs c-breadcrumbs">
+                <div class="l-inner">
                     <nav>
                         <ol itemscope itemtype="http://schema.org/BreadcrumbList">
                             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                                 <a itemprop="item" href="/"><span itemprop="name">ホーム</span></a>
                                 <meta itemprop="position" content="1" />
+                                <span class="c-breadcrumbs__arrow">&gt;</span>
                             </li>
                             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                                 <a itemprop="item" href="/blog/"><span itemprop="name">ブログ</span></a>
                                 <meta itemprop="position" content="2" />
+
                             </li>
 
                         </ol>
@@ -84,7 +86,7 @@
                 </div>
             </div>
             <section id="blog_list" class="p-blog-list">
-                <div class="inner">
+                <div class="l-inner">
                     <h2 class="c-section-title p-blog-list__section-title">ブログ一覧</h2>
                     <div class="p-blog-list__contents">
                         <div class="p-blog-list__item item-card">
@@ -284,7 +286,8 @@
                             <li class="c-pagination__item is-active"><a href="#" class="c-pagination__link">1</a></li>
                             <li class="c-pagination__item"><a href="#" class="c-pagination__link">2</a></li>
                             <li class="c-pagination__item"><a href="#" class="c-pagination__link">3</a></li>
-                            <li class="c-pagination__item"><span class="c-pagination__ellipsis"><span></span><span></span><span></span></span></li>
+                            <li class="c-pagination__item"><span
+                                    class="c-pagination__ellipsis"><span></span><span></span><span></span></span></li>
                             <li class="c-pagination__item"><a href="#" class="c-pagination__link">9</a></li>
                         </ul>
                     </nav>
@@ -303,7 +306,7 @@
 
         </main>
         <footer class="l-footer section-bg">
-            <div class="inner">
+            <div class="l-inner">
                 <div class="l-footer__contents">
                     <nav class="l-footer__nav">
                         <ul class="l-footer__nav-lists">

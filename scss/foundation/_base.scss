@@ -74,15 +74,15 @@ ul {
   list-style: none;
 }
 
-.inner {
-  margin-inline: auto;
-  padding-inline: 2rem;
+// .inner {
+//   margin-inline: auto;
+//   padding-inline: 2rem;
 
-  @include pc {
-    max-width: 92rem;
+//   @include pc {
+//     max-width: 92rem;
     
-  }
-}
+//   }
+// }
 
 .section-bg {
   background-color: $color-main;

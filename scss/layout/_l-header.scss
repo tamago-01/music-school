@@ -13,7 +13,7 @@
     height: 8rem;
   }
 
-  .inner {
+  .l-inner {
     @include pc {
       display: flex;
       justify-content: space-between;
