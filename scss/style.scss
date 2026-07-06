@@ -6,6 +6,7 @@
 @use "layout/l-header";
 @use "layout/l-footer";
 @use "layout/l-two-column";
+@use "layout/l-main";
 @use "object/component/c-section-title";
 @use "object/component/c-contact-btn";
 @use "object/component/c-back-to-top";
@@ -41,3 +42,4 @@
 @use "object/project/p-contact-form";
 @use "object/project/p-contact-send";
 @use "object/project/p-404";
+@use "object/project/p-search";

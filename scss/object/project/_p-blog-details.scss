@@ -11,12 +11,12 @@
 }
 
 .p-blog-details__breadcrumbs {
-  margin-top: 5rem;
+  height: 5.9rem;
 
   @include pc {
-    margin-top: 8rem;
+    height: 5rem;
   }
-
+  
   ol {
     display: flex;
     flex-wrap: wrap;
