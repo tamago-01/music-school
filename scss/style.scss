@@ -22,6 +22,7 @@
 @use "object/component/c-sns-share";
 @use "object/component/c-category--sm";
 @use "object/component/c-side-title";
+@use "object/component/c-submit";
 @use "object/project/p-top-mv";
 @use "object/project/p-concept";
 @use "object/project/p-about";
@@ -37,3 +38,6 @@
 @use "object/project/p-post-nav";
 @use "object/project/p-related";
 @use "object/project/p-side-nav";
+@use "object/project/p-contact-form";
+@use "object/project/p-contact-send";
+@use "object/project/p-404";

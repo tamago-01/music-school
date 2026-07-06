@@ -1,0 +1,19 @@
+@use "../../foundation/variable" as *;
+
+.p-contact-send__text {
+  margin-top: 4.7rem;
+  margin-bottom: 3.9rem;
+
+@include pc {
+   
+    font-size: 1.8rem;
+    line-height: calc(30 / 18); 
+     text-align: center;
+  }
+  }
+
+
+
+.p-contact-form__submit {
+  margin-bottom: 5rem;
+}

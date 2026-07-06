@@ -58,7 +58,6 @@
     display: block;
 
     @include pc {
-      // aspect-ratio: 260 / 184;
       object-fit: cover;
     }
   }
@@ -81,7 +80,7 @@
 }
 
 .details-card__heading {
-  // margin-top: 0.3rem;
+
 
   @include pc {
     margin-top: 0rem;
@@ -95,7 +94,6 @@
   margin-top: 0.5rem;
 
   @include pc {
-    // margin-top: 0.3rem;
     text-align-last: left;
   }
 }
