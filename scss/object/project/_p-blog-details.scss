@@ -68,8 +68,6 @@
   top: 0;
   left: 0;
 }
-.details-card__thumb {
-}
 
 .details-card__textarea {
   margin-top: 3rem;
@@ -104,7 +102,7 @@
   @include pc {
     font-size: 1.8rem;
     line-height: calc(30 / 18);
-    // margin-top: 0.8rem;
+
   }
 }
 
@@ -117,11 +115,6 @@
   }
 }
 
-.item-card__date {
-  text-align: left;
-  font-size: 1.7rem;
-  line-height: calc(30 / 17);
-}
 
 .p-sns-share {
   margin-top: 2.1rem;

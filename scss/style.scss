@@ -22,6 +22,7 @@
 @use "object/component/c-pagination";
 @use "object/component/c-sns-share";
 @use "object/component/c-category--sm";
+@use "object/component/c-category--lg";
 @use "object/component/c-side-title";
 @use "object/component/c-submit";
 @use "object/project/p-top-mv";
@@ -43,3 +44,4 @@
 @use "object/project/p-contact-send";
 @use "object/project/p-404";
 @use "object/project/p-search";
+@use "object/project/p-result-list";

@@ -1,6 +1,6 @@
 @use "../../foundation/variable" as *;
 
-.p-blog-list {
+.p-result-list {
   padding-top: 4.6rem;
   padding-bottom: 20.5rem;
 
@@ -10,41 +10,31 @@
   }
 }
 
-.p-blog-list__section-title {
+.p-result-list__section-title {
   @include pc {
     font-size: 2.5rem;
     line-height: calc(38 / 25);
   }
 }
-
-.p-blog-list__contents {
+.p-result-list__contents {
   margin-top: 3.9rem;
   display: grid;
   gap: 3.9rem;
 
   @include pc {
     margin-top: 4rem;
-    gap: 7rem;
+    grid-template-columns: 1fr 1fr;
+    // gap: calc(71 / 1080 * 100%) calc(106 / 1080 * 100%);
+    gap: 7.1rem 10.6rem;
   }
 }
 
-
-
-.blog-card {
-  @include pc {
-    display: flex;
-    gap: 5rem;
-  }
-}
-
-.blog-card__image {
+.result-card__image {
   position: relative;
   width: 100%;
 
   @include pc {
     aspect-ratio: auto;
-    width: calc(260 / 880 * 100%);
-    flex-shrink: 0;
   }
 
   img {
@@ -54,59 +44,40 @@
     display: block;
 
     @include pc {
-      aspect-ratio: 260 / 184;
+      aspect-ratio: 387 / 273;
       object-fit: cover;
     }
   }
 }
 
-.p-blog-list__category {
+.p-result-list__category {
   position: absolute;
   top: 0;
   left: 0;
 }
-
-.blog-card__textarea {
+.result-card__textarea {
   margin-top: 3rem;
 
   @include pc {
-    margin-top: -0.5rem;
+    margin-top: 1.8rem;
   }
 }
 
-.blog-card__heading {
-  margin-top: 0.3rem;
 
-  @include pc {
-    margin-top: 0rem;
-  }
-}
-
-.blog-card__date {
+.result-card__date {
   font-size: 1.7rem;
   line-height: calc(30 / 17);
   text-align: right;
   margin-top: 0.6rem;
 
   @include pc {
-    margin-top: 0.3rem;
-    text-align: left;
+    margin-top: 1rem;
   }
 }
-
-.blog-card__text {
-  margin-top: 0.8rem;
-
-  @include pc {
-    font-size: 1.8rem;
-    line-height: calc(30 / 18);
-    margin-top: 0.8rem;
-  }
-}
-.p-pagination-container {
+.p-result-list__pagination-container {
   margin-top: 5.9rem;
 
   @include pc {
-    margin-top: 6.9rem;
+    margin-top: 7.1rem;
   }
 }

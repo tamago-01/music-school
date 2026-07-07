@@ -96,6 +96,9 @@
 }
 .related-item__date {
   margin-top: 0.4rem;
+  text-align: left;
+  font-size: 1.7rem;
+  line-height: calc(30 / 17);
 
   @include pc {
     margin-top: 1.4rem;
