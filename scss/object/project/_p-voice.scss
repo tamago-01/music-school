@@ -8,14 +8,14 @@
 $base-pc: 1080;
 $swiper-width: 880;
 $arrow-space: 45;
-$arrow-top-pixel: 168;
+$arrow-top-pixel: 146;
 $gallery-total-width: 970;
 
 .p-voice {
   padding-block: 4.6rem 5rem;
 
   @include pc {
-    padding-block: 4.4rem 8rem;
+    padding-block: 4.4rem 7rem;
   }
 
   &__contents {

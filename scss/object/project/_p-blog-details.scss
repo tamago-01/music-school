@@ -16,7 +16,7 @@
   @include pc {
     height: 5rem;
   }
-  
+
   ol {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +37,7 @@
 .details-card {
   @include pc {
     display: flex;
-    gap: 4.5rem;
+    gap: 5.5rem;
   }
 }
 
@@ -58,6 +58,7 @@
     display: block;
 
     @include pc {
+      aspect-ratio: 600 / 350;
       object-fit: cover;
     }
   }
@@ -78,8 +79,6 @@
 }
 
 .details-card__heading {
-
-
   @include pc {
     margin-top: 0rem;
   }
@@ -102,7 +101,6 @@
   @include pc {
     font-size: 1.8rem;
     line-height: calc(30 / 18);
-
   }
 }
 
@@ -114,7 +112,6 @@
     margin-top: 4.5rem;
   }
 }
-
 
 .p-sns-share {
   margin-top: 2.1rem;

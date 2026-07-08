@@ -4,16 +4,19 @@
   margin-top: 4.7rem;
   margin-bottom: 3.9rem;
 
-@include pc {
-   
+  @include pc {
+    margin-top: 6.7rem;
+
     font-size: 1.8rem;
-    line-height: calc(30 / 18); 
-     text-align: center;
+    line-height: calc(30 / 18);
+    text-align: center;
   }
-  }
-
-
+}
 
 .p-contact-form__submit {
   margin-bottom: 5rem;
+
+  @include pc {
+    margin-bottom: 9rem;
+  }
 }
