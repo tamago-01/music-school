@@ -4,14 +4,11 @@
   background-color: $color-main;
   font-size: 1.5rem;
   line-height: calc(25 / 15);
-  width: 9rem;
+  width: 10rem;
   height: 3rem;
   display: grid;
   place-items: center;
   font-weight: 700;
   color: #fff;
 
-  @include pc {
-    width: 10rem;
-  }
 }
