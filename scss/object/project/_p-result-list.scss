@@ -29,7 +29,7 @@
   }
 }
 
-.result-card__image {
+.result-list-card__image {
   position: relative;
   width: 100%;
 
@@ -50,12 +50,21 @@
   }
 }
 
+.result-list-card__thumb {
+  width: 100%;
+}
+
+.result-list-card__image-link {
+  display: block;
+  width: 100%;
+}
+
 .p-result-list__category {
   position: absolute;
   top: 0;
   left: 0;
 }
-.result-card__textarea {
+.result-list-card__textarea {
   margin-top: 3rem;
 
   @include pc {
@@ -63,8 +72,7 @@
   }
 }
 
-
-.result-card__date {
+.result-list-card__date {
   font-size: 1.7rem;
   line-height: calc(30 / 17);
   text-align: right;
