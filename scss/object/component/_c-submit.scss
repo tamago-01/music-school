@@ -6,7 +6,8 @@
   height: 5rem;
   background-color: $color-main;
   display: flex;
-  align-items: center;
+  place-items: center;
+  // align-items: center;
   justify-content: center;
   font-size: 2rem;
   line-height: calc(26 / 20);

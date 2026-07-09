@@ -675,9 +675,10 @@ ul {
   font-size: 2rem;
   line-height: 1.65;
   font-weight: 700;
-  text-align: center;
   color: #fff;
   letter-spacing: 0.3rem;
+  display: grid;
+  place-items: center;
 }
 @media (min-width: 768px) {
   .c-contact-btn {
@@ -1067,9 +1068,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  place-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
