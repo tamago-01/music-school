@@ -28,8 +28,6 @@
   }
 }
 
-
-
 .blog-card {
   @include pc {
     display: flex;
@@ -40,6 +38,10 @@
 .blog-card__image {
   position: relative;
   width: 100%;
+  a {
+    display: block;
+    width: 100%;
+  }
 
   @include pc {
     aspect-ratio: auto;
