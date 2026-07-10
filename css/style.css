@@ -3109,6 +3109,10 @@ ul {
   }
 }
 
+.p-contact-form__submit-area {
+  display: none;
+}
+
 .p-contact-send__text {
   margin-top: 4.7rem;
   margin-bottom: 3.9rem;
