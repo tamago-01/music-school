@@ -455,12 +455,6 @@ ul {
   font-weight: bold;
   padding-left: 2rem;
 }
-@media (any-hover: hover) {
-  .l-header__nav-menu-item a:hover::after {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-}
 .l-header__drawer-icon-bar {
   display: block;
   position: absolute;
@@ -1642,8 +1636,10 @@ ul {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  -webkit-transition: height 0.3s;
-  transition: height 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
   right: 1.5rem;
   width: 1.36rem;
   height: 0.924rem;
@@ -3113,10 +3109,6 @@ ul {
   .p-contact-form__back-to-top.is-show:hover {
     opacity: 0.7;
   }
-}
-
-.p-contact-form__submit-area {
-  display: none;
 }
 
 .p-contact-send__text {

@@ -196,11 +196,7 @@
     font-weight: bold;
     padding-left: 2rem;
 
-    @include pc-hover {
-      &::after {
-        transform: scale(1, 1);
-      }
-    }
+   
   }
 
   &__drawer-icon-bar {
