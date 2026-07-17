@@ -1,10 +1,6 @@
 @use "../../foundation/variable" as *;
 
 .c-back-to-top {
-  position: fixed;
-  right: 2rem;
-  bottom: 38.1rem;
-  z-index: 100;
   width: 68px;
   height: 68px;
   opacity: 0;
@@ -13,10 +9,10 @@
     opacity 0.4s,
     visibility 0.4s;
   clip-path: circle(50%);
+  align-self: flex-end;
 
   @include pc {
-    right: 11.5rem;
-    bottom: 36.1rem;
+    margin-right: 11.5rem;
   }
 
   &.is-show {

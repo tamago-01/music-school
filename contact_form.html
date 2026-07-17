@@ -24,13 +24,13 @@
     <div id="container">
         <header class="l-header">
             <div class="l-inner">
-                <h1 class="l-header__logo">
+                <div class="l-header__logo">
                     <a href="index.html">
                         <img src="./img/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
                         <span class="l-header__title"><span class="l-header__title-main">きたむら</span><br
                                 class="pc">ミュージックスクール</span>
                     </a>
-                </h1>
+                </div>
                 <nav class="l-header__nav pc js-nav">
                     <ul class="l-header__nav-list">
                         <li class="l-header__nav-item"><a href="plan.html">料金</a></li>
@@ -63,7 +63,7 @@
                 </picture>
                 <div class="c-kv__overlay"></div>
                 <div class="c-kv__catch">
-                    <h2>お問い合わせ</h2>
+                    <h1>お問い合わせ</h1>
                 </div>
             </div>
             <div class="p-blog-list__breadcrumbs c-breadcrumbs">
@@ -76,7 +76,7 @@
                                 <span class="c-breadcrumbs__arrow">&gt;</span>
                             </li>
                             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                <a itemprop="item" href="contact_form.html"><span itemprop="name">お問い合わせ</span></a>
+                                <span class="c-breadcrumbs__current" itemprop="name">お問い合わせ</span>
                                 <meta itemprop="position" content="2" />
 
                             </li>
@@ -87,7 +87,7 @@
             </div>
             <div id="contact-form" class="p-contact-form">
                 <div class="l-inner">
-                    <div class="p-contact-form__contents">
+                    <section class="p-contact-form__contents">
                         <div class="p-contact-form__text">
                             <p class="p-contact-form__heading">当校に関するご質問・ご相談・資料請求は下記のフォームからお気軽にお問い合わせください。<br>
                                 通常３営業日以内にメールにてご連絡させていただきます。</p>
@@ -108,7 +108,8 @@
                                         <label for="your-name">お名前</label>
                                     </dt>
                                     <dd>
-                                        <input type="text" name="your-name" placeholder="北村　翔平" id="your-name" class="form-control">
+                                        <input type="text" name="your-name" placeholder="北村　翔平" id="your-name"
+                                            class="form-control">
                                     </dd>
                                 </dl>
                                 <dl class="p-contact-form__area">
@@ -181,19 +182,18 @@
                         </div>
 
 
-
-                        <a href="#" class="p-contact-form__back-to-top c-back-to-top" aria-label="トップへ戻る">
-                            <img src="../img/arrow-top.svg" alt="トップへ戻るの矢印">
-                        </a>
-                        <div class="p-contact-form__submit-area">
-                            <a href="contact_form.html" class="c-contact-btn">お問い合わせ</a>
-
-                        </div>
-
-                    </div>
+                    </section>
                 </div>
             </div>
 
+            <div class="p-fix-area">
+                <div class="p-fix-area__inner">
+                    <a href="#" class="p-contact-form__back-to-top c-back-to-top" aria-label="トップへ戻る">
+                        <img src="../img/arrow-top.svg" alt="トップへ戻るの矢印">
+                    </a>
+                    <a href="contact_form.html" class="p-contact-form__submit-area c-contact-btn">お問い合わせ</a>
+                </div>
+            </div>
         </main>
         <footer class="l-footer section-bg">
             <div class="l-inner">

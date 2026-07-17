@@ -44,10 +44,11 @@
 
   &__price-table {
     white-space: nowrap;
-    width: 67rem;
+    width: 72.7rem;
     table-layout: fixed;
     border-collapse: collapse;
     margin-bottom: 1.5rem;
+    // width: 100%;
 
     @include pc {
       width: 100%;
@@ -59,10 +60,10 @@
     td {
       //   border: 1px solid #000;
       border: none;
-      width: 16.8rem;
 
       @include pc {
-        width: auto;
+        // width: auto;
+        width: 25%;
       }
     }
 
@@ -82,6 +83,7 @@
       @include pc {
         height: 5rem;
         padding: 1.3rem 3.4rem;
+        width: 100%;
       }
     }
 
@@ -141,7 +143,7 @@
       @include pc {
         font-size: 1.7rem;
         line-height: calc(30 / 17);
-        padding-left: 2rem;
+        padding-inline: 2rem;
         padding-top: 2.9rem;
       }
     }
@@ -172,15 +174,14 @@
       text-align: center;
       vertical-align: middle;
       padding-left: 1rem;
-      padding-top: 1rem;
+      // padding-top: 1rem;
 
       @include pc {
         font-size: 1.7rem;
         line-height: calc(25 / 17);
-        padding-left: 2rem;
+        padding-inline: 2rem;
       }
     }
-    
 
     tbody td img {
       width: 1.5rem;
@@ -205,7 +206,7 @@
       @include pc {
         font-size: 1.7rem;
         line-height: calc(25 / 17);
-        padding-left: 2rem;
+        padding-inline: 2rem;
       }
     }
     tbody tr:nth-child(even) {

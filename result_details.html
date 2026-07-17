@@ -24,13 +24,13 @@
     <div id="container">
         <header class="l-header">
             <div class="l-inner">
-                <h1 class="l-header__logo">
+                <div class="l-header__logo">
                     <a href="index.html">
                         <img src="./img/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
                         <span class="l-header__title"><span class="l-header__title-main">きたむら</span><br
                                 class="pc">ミュージックスクール</span>
                     </a>
-                </h1>
+                </div>
                 <nav class="l-header__nav pc js-nav">
                     <ul class="l-header__nav-list">
                         <li class="l-header__nav-item"><a href="plan.html">料金</a></li>
@@ -77,8 +77,8 @@
                                 <span class="c-breadcrumbs__arrow">&gt;</span>
                             </li>
                             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                <a itemprop="item" href="result_details.html"><span
-                                        itemprop="name">タイトルが入ります。タイトルが入ります。タイトルが入ります。</span></a>
+                                <span class="p-result-details__breadcrumbs--current"
+                                    itemprop="name">タイトルが入ります。タイトルが入ります。タイトルが入ります。</span>
                                 <meta itemprop="position" content="4" />
                             </li>
 
@@ -86,7 +86,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="p-result-details__contents">
+            <section class="p-result-details__contents">
                 <div class="l-inner">
                     <div class="p-result-details__wrapper">
                         <div class="p-result-details__item result-card">
@@ -100,8 +100,9 @@
                                 <span class="p-result-details__category c-category--lg">ギター</span>
                             </div>
                             <div class="p-result-details__card-textarea result-card__textarea">
-                                <h2 class="p-result-details__card-heading c-heading--lg">タイトルが入ります。タイトルが入ります。タイトルが入ります。
-                                </h2>
+                                <h1 class="p-result-details__card-heading c-heading--lg">タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                                </h1>
+
                                 <p class="p-result-details__card-date">0000.00.00</p>
                             </div>
                         </div>
@@ -134,27 +135,30 @@
                     </div>
                     <div class="p-result-nav">
                         <div class="p-result-nav__items">
-                            <div class="p-result-nav__item">
-                                <a href="#" class="p-result-nav__label--prev">◀︎ 前の記事</a>
+                            <a href="result_details.html" class="p-result-nav__item">
+
+                                <div class="p-result-nav__label--prev">◀︎ 前の記事</div>
                                 <div class="p-result-nav__content">
                                     <img class="pc" src="../img/blog01-pc.webp" alt="ギターを弾く手元">
                                     <div class="p-post-nav__text">タイトルが入ります。タイトルが入ります。タイトルが入</div>
                                 </div>
-                            </div>
-                            <div class="p-result-nav__item">
-                                <a href="#" class="p-result-nav__label--next">次の記事 ▶︎</a>
+
+                            </a>
+                            <a href="result_details.html" class="p-result-nav__item">
+                                <div class="p-result-nav__label--next">次の記事 ▶︎</div>
                                 <div class="p-result-nav__content">
                                     <img class="pc" src="../img/blog02-pc.webp" alt="悩んでいる男性">
                                     <div class="p-result-nav__text">タイトルが入ります。タイトルが入ります。タイトルが入</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="p-result-related">
                         <div class="p-result-related__contents">
                             <div class="p-result-related__posts">関連記事</div>
                             <div class="p-result-related__items">
-                                <div class="p-result-related__item">
+                                <a href="blog-details.html" class="p-result-related__item">
+
                                     <div class="p-result-related__image">
                                         <div class="p-result-related__thumb">
                                             <div>
@@ -167,8 +171,9 @@
                                         <h3 class="p-result-related__title">タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
                                         <p class="p-result-related__date">0000.00.00</p>
                                     </div>
-                                </div>
-                                <div class="p-result-related__item">
+
+                                </a>
+                                <a href="blog-details.html" class="p-result-related__item">
                                     <div class="p-result-related__image">
                                         <div class="p-result-related__thumb">
                                             <div>
@@ -181,8 +186,8 @@
                                         <h3 class="p-result-related__title">タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
                                         <p class="p-result-related__date">0000.00.00</p>
                                     </div>
-                                </div>
-                                <div class="p-result-related__item">
+                                </a>
+                                <a href="blog-details.html" class="p-result-related__item">
                                     <div class="p-result-related__image">
                                         <div class="p-result-related__thumb">
                                             <div>
@@ -195,21 +200,20 @@
                                         <h3 class="p-result-related__title">タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
                                         <p class="p-result-related__date">0000.00.00</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                         </div>
                     </div>
+
+                </div>
+            </section>
+            <div class="p-fix-area">
+                <div class="p-fix-area__inner">
                     <a href="#" class="c-back-to-top" aria-label="トップへ戻る">
                         <img src="../img/arrow-top.svg" alt="トップへ戻るの矢印">
                     </a>
-                    <div class="p-blog-details__submit-area">
-                       
-                       <a href="contact_form.html" class="c-contact-btn">お問い合わせ</a>
-                       
-                    </div>
-
-
+                    <a href="contact_form.html" class="c-contact-btn">お問い合わせ</a>
                 </div>
             </div>
         </main>

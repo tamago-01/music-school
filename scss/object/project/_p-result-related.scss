@@ -42,9 +42,14 @@
 .p-result-related__item {
   display: flex;
   gap: 2rem;
+  transition: opacity 0.4s;
 
   @include pc {
     gap: 3rem;
+  }
+
+  @include pc-hover {
+    opacity: 0.7;
   }
 }
 

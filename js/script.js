@@ -37,17 +37,34 @@ const swiper = new Swiper(".swiper", {
 });
 
 // アコーディオン;
+// jQuery(".js-accordion").on("click", function (e) {
+//   e.preventDefault();
+
+//   if (jQuery(this).parent().hasClass("is-open")) {
+//     jQuery(this).parent().removeClass("is-open");
+//     jQuery(this).next().slideUp();
+//   } else {
+//     jQuery(this).parent().addClass("is-open");
+//     jQuery(this).next().slideDown();
+//   }
+// });
+
+// アコーディオン
 jQuery(".js-accordion").on("click", function (e) {
   e.preventDefault();
 
-  if (jQuery(this).parent().hasClass("is-open")) {
-    jQuery(this).parent().removeClass("is-open");
-    jQuery(this).next().slideUp();
+  const box = jQuery(this).closest(".p-qa__box"); // 属するboxを取得
+  const answer = box.find(".p-qa__a-box"); // その中の回答ボックス
+
+  if (box.hasClass("is-open")) {
+    box.removeClass("is-open");
+    answer.slideUp();
   } else {
-    jQuery(this).parent().addClass("is-open");
-    jQuery(this).next().slideDown();
+    box.addClass("is-open");
+    answer.slideDown();
   }
 });
+
 // トップへ戻るボタン
 $(window).on("scroll", function () {
   if ($(window).scrollTop() > 300) {

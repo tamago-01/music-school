@@ -40,9 +40,13 @@
   }
 }
 .search-card {
+  transition: opacity 0.4s;
   @include pc {
     display: flex;
     gap: 5rem;
+  }
+  @include pc-hover {
+    opacity: 0.7;
   }
 }
 .search-card__image {
@@ -108,7 +112,7 @@
     margin-top: 0.8rem;
   }
 }
-.p-search-pagination__container {
+.p-search__pagination {
   margin-top: 5.9rem;
 
   @include pc {

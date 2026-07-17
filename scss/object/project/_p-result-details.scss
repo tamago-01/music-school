@@ -2,7 +2,7 @@
 
 .p-result-details__breadcrumbs {
   height: 7.7rem;
-  padding-top: 1rem;
+  // padding-top: 1rem;
 
   @include pc {
     height: 5rem;
@@ -14,9 +14,24 @@
     white-space: wrap;
     column-gap: 2.5rem;
     row-gap: 0;
+    padding-top: 0.5rem;
+
+    @include pc {
+      padding-top: 0;
+    }
   }
   nav {
     line-height: 2rem;
+  }
+}
+.p-result-details__breadcrumbs--current {
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: calc(25 / 16);
+  // margin-top: -0.5rem;
+
+  @include pc {
+    margin-top: 0;
   }
 }
 
@@ -139,8 +154,9 @@
 
   @include pc {
     width: 14rem;
-    padding-top: 0.7rem;
-    padding-left: 2rem;
+    padding: 0.4rem 2rem;
+    // padding-top: 0.7rem;
+    // padding-left: 2rem;
   }
 }
 
@@ -148,15 +164,13 @@
   font-size: 1.8rem;
   line-height: calc(30 / 18);
   font-weight: 500;
-  padding-top: 0.7rem;
-  padding-left: 1rem;
+  padding: 0.4rem 2rem;
   border-collapse: collapse;
   border: 0.05rem solid #707070;
 
   @include pc {
     width: 26rem;
-    padding-top: 0.7rem;
-    padding-left: 2rem;
+    
   }
 }
 

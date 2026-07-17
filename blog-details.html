@@ -24,13 +24,13 @@
     <div id="container">
         <header class="l-header">
             <div class="l-inner">
-                <h1 class="l-header__logo">
+                <div class="l-header__logo">
                     <a href="index.html">
                         <img src="./img/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
                         <span class="l-header__title"><span class="l-header__title-main">きたむら</span><br
                                 class="pc">ミュージックスクール</span>
                     </a>
-                </h1>
+                </div>
                 <nav class="l-header__nav pc js-nav">
                     <ul class="l-header__nav-list">
                         <li class="l-header__nav-item"><a href="plan.html">料金</a></li>
@@ -77,7 +77,7 @@
                                 <span class="c-breadcrumbs__arrow">&gt;</span>
                             </li>
                             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                <a itemprop="item" href="blog-details.html"><span itemprop="name">アルペジオが劇的に向上する３つの習慣</span></a>
+                                <span class="c-breadcrumbs__current" itemprop="name">アルペジオが劇的に向上する３つの習慣</span>
                                 <meta itemprop="position" content="4" />
                             </li>
 
@@ -85,7 +85,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="p-blog-details__contents">
+            <section class="p-blog-details__contents">
                 <div class="l-inner">
                     <div class="l-two-column">
 
@@ -102,7 +102,7 @@
                                         <span class="details__category c-category">ギター</span>
                                     </div>
                                     <div class="details-card__textarea">
-                                        <h3 class="details-card__heading c-heading--lg">アルペジオが劇的に向上する3つの習慣</h3>
+                                        <h1 class="details-card__heading c-heading--lg">アルペジオが劇的に向上する3つの習慣</h1>
                                         <p class="details-card__date">0000.00.00</p>
                                     </div>
                                 </div>
@@ -177,27 +177,28 @@
                                 </div>
                                 <div class="p-post-nav">
                                     <div class="p-post-nav__items">
-                                        <div class="p-post-nav__item">
-                                            <a href="#" class="p-post-nav__label--prev">◀︎ 前の記事</a>
+                                        <a href="blog-details.html" class="p-post-nav__item">
+                                            <div class="p-post-nav__label--prev">◀︎ 前の記事</div>
                                             <div class="post-nav__content">
                                                 <img class="pc" src="../img/blog01-pc.webp" alt="ギターを弾く手元">
                                                 <div class="p-post-nav__text">タイトルが入ります。タイトルが入ります。タイトルが入</div>
                                             </div>
-                                        </div>
-                                        <div class="p-post-nav__item">
-                                            <a href="#" class="p-post-nav__label--next">次の記事 ▶︎</a>
+                                        </a>
+                                        <a href="blog-details.html" class="p-post-nav__item">
+                                            <div class="p-post-nav__label--next">次の記事 ▶︎</div>
                                             <div class="post-nav__content">
                                                 <img class="pc" src="../img/blog02-pc.webp" alt="悩んでいる男性">
                                                 <div class="p-post-nav__text">タイトルが入ります。タイトルが入ります。タイトルが入</div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="p-related">
                                     <div class="p-related__contents">
                                         <div class="p-related__posts">関連記事</div>
                                         <div class="p-related__items">
-                                            <div class="p-related-item related-item">
+                                            <a href="blog-details.html" class="p-related-item related-item">
+
                                                 <div class="related-item__image">
                                                     <div class="related-item__thumb">
                                                         <picture>
@@ -212,8 +213,9 @@
                                                     <h3 class="related-item__title">タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
                                                     <p class="related-item__date">0000.00.00</p>
                                                 </div>
-                                            </div>
-                                            <div class="p-related-item related-item">
+                                            </a>
+
+                                            <a href="blog-details.html" class="p-related-item related-item">
                                                 <div class="related-item__image">
                                                     <div class="related-item__thumb">
                                                         <picture>
@@ -228,8 +230,8 @@
                                                     <h3 class="related-item__title">タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
                                                     <p class="related-item__date">0000.00.00</p>
                                                 </div>
-                                            </div>
-                                            <div class="p-related-item related-item">
+                                            </a>
+                                            <a href="blog-details.html" class="p-related-item related-item">
                                                 <div class="related-item__image">
                                                     <div class="related-item__thumb">
                                                         <picture>
@@ -244,7 +246,7 @@
                                                     <h3 class="related-item__title">タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
                                                     <p class="related-item__date">0000.00.00</p>
                                                 </div>
-                                            </div>
+                                            </a>
                                         </div>
 
                                     </div>
@@ -256,9 +258,9 @@
                             <div class="p-side-nav">
                                 <div class="p-side-nav__block p-side-nav__block--border">
                                     <div class="c-side-title">無料メールマガジン</div>
-                                    <div class="p-side-nav__banner-area">
+                                    <a href="#" class="p-side-nav__banner-area">
                                         <div class="p-side-nav__banner">バナー広告</div>
-                                    </div>
+                                    </a>
 
                                 </div>
                                 <div class="p-side-nav__block p-side-nav__block--border">
@@ -272,7 +274,7 @@
                                 <div class="p-side-nav__block">
                                     <div class="c-side-title">おすすめの記事</div>
                                     <div class="p-side-nav__recommend">
-                                        <div class="p-side-nav__item recommend-item">
+                                        <a href="blog-details.html" class="p-side-nav__item recommend-item">
                                             <div class="recommend-item__image">
                                                 <div class="recommend-item__thumb">
                                                     <picture>
@@ -281,14 +283,14 @@
                                                         <img src="../img/blog01-pc.webp" alt="ギターを弾く手元">
                                                     </picture>
                                                 </div>
-                                                
+
                                             </div>
                                             <div class="recommend-item__textarea">
                                                 <h3 class="recommend-item__title">タイトルが入ります。タイトルが入ります。</h3>
 
                                             </div>
-                                        </div>
-                                        <div class="p-side-nav__item recommend-item">
+                                        </a>
+                                        <a href="blog-details.html" class="p-side-nav__item recommend-item">
                                             <div class="recommend-item__image">
                                                 <div class="recommend-item__thumb">
                                                     <picture>
@@ -297,14 +299,14 @@
                                                         <img src="../img/blog02-pc.webp" alt="悩んでいる男性">
                                                     </picture>
                                                 </div>
-                                                
+
                                             </div>
                                             <div class="recommend-item__textarea">
                                                 <h3 class="recommend-item__title">タイトルが入ります。タイトルが入ります。</h3>
 
                                             </div>
-                                        </div>
-                                        <div class="p-side-nav__item recommend-item">
+                                        </a>
+                                        <a href="blog-details.html" class="p-side-nav__item recommend-item">
                                             <div class="recommend-item__image">
                                                 <div class="recommend-item__thumb">
                                                     <picture>
@@ -313,13 +315,13 @@
                                                         <img src="../img/blog03-pc.webp" alt="歌っている女性">
                                                     </picture>
                                                 </div>
-                                                
+
                                             </div>
                                             <div class="recommend-item__textarea">
                                                 <h3 class="recommend-item__title">タイトルが入ります。タイトルが入ります。</h3>
 
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
 
 
@@ -327,23 +329,33 @@
                                 <div class="p-side-nav__block">
                                     <div class="c-side-title">カテゴリー</div>
                                     <div class="p-side-nav__category category-item">
-                                        <div class="category-item__text">ギター</div>
+                                        <a href="blog-details.html" class="category-item">
+                                            <div class="category-item__text">ギター</div>
+                                        </a>
 
                                     </div>
                                     <div class="p-side-nav__category category-item">
-                                        <div class="category-item__text">集客方法</div>
+                                        <a href="blog-details.html" class="category-item">
+                                            <div class="category-item__text">集客方法</div>
+                                        </a>
 
                                     </div>
                                     <div class="p-side-nav__category category-item">
-                                        <div class="category-item__text">SNS</div>
+                                        <a href="blog-details.html" class="category-item">
+                                            <div class="category-item__text">SNS</div>
+                                        </a>
 
                                     </div>
                                     <div class="p-side-nav__category category-item">
-                                        <div class="category-item__text">ピアノ</div>
+                                        <a href="blog-details.html" class="category-item">
+                                            <div class="category-item__text">ピアノ</div>
+                                        </a>
 
                                     </div>
                                     <div class="p-side-nav__category category-item">
-                                        <div class="category-item__text">営業活動</div>
+                                        <a href="blog-details.html" class="category-item">
+                                            <div class="category-item__text">営業活動</div>
+                                        </a>
 
                                     </div>
                                 </div>
@@ -352,18 +364,17 @@
                         </div>
 
                     </div>
+
+                </div>
+            </section>
+            <div class="p-fix-area">
+                <div class="p-fix-area__inner">
                     <a href="#" class="c-back-to-top" aria-label="トップへ戻る">
                         <img src="../img/arrow-top.svg" alt="トップへ戻るの矢印">
                     </a>
-                    <div class="p-blog-details__submit-area">
-                       <a href="contact_form.html" class="c-contact-btn">お問い合わせ</a>
-                    </div>
+                    <a href="contact_form.html" class="c-contact-btn">お問い合わせ</a>
                 </div>
             </div>
-
-
-
-
         </main>
         <footer class="l-footer section-bg">
             <div class="l-inner">

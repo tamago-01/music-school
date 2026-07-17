@@ -29,9 +29,14 @@
 }
 
 .blog-card {
+  transition: opacity 0.4s;
   @include pc {
     display: flex;
     gap: 5rem;
+  }
+
+  @include pc-hover {
+    opacity: 0.7;
   }
 }
 
@@ -105,7 +110,7 @@
     margin-top: 0.8rem;
   }
 }
-.p-pagination-container {
+.p-blog-list__pagination {
   margin-top: 5.9rem;
 
   @include pc {

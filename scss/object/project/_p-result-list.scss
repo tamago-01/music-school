@@ -29,6 +29,14 @@
   }
 }
 
+.result-list-card {
+  transition: opacity 0.4s;
+
+  @include pc-hover {
+    opacity: 0.7;
+  }
+}
+
 .result-list-card__image {
   position: relative;
   width: 100%;

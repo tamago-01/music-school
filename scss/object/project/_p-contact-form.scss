@@ -107,6 +107,7 @@
   height: 19rem;
   padding-top: 1.2rem;
   resize: none;
+  word-break: break-all;
 
   @include pc {
     height: 30rem;
@@ -186,7 +187,7 @@
 
 .p-contact-form__back-to-top {
   position: fixed;
-  right: 2rem;
+  // right: 2rem;
   bottom: 32rem;
   z-index: 100;
   width: 68px;
@@ -199,7 +200,7 @@
   clip-path: circle(50%);
 
   @include pc {
-    right: 11.5rem;
+    // right: 11.5rem;
     bottom: 30rem;
   }
 

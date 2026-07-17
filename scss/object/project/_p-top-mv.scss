@@ -5,13 +5,11 @@
   width: 100%;
   height: auto;
   aspect-ratio: 375 / 550;
- 
 
   @include pc {
     width: 100%;
     aspect-ratio: 1080 / 470;
     object-fit: cover;
-    
   }
 
   &__overlay {
@@ -21,6 +19,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(80, 80, 80, 0.502);
+    mix-blend-mode: multiply;
   }
 
   &__catch {
@@ -42,8 +41,13 @@
       font-weight: 700;
 
       @include pc {
-        font-size: 4rem;
+        // font-size: 4rem;
+        font-size: calc(40 / 1080 * 100vw);
         line-height: calc(60 / 40);
+      }
+
+      span {
+        display: inline-block;
       }
     }
   }

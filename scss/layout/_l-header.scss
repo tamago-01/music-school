@@ -34,6 +34,7 @@
   &__title-main {
     @include pc {
       font-size: 2rem;
+      line-height: calc(23 / 20);
     }
   }
 
@@ -193,10 +194,9 @@
     height: 5.8rem;
     color: #fff;
     font-size: 1.8rem;
+    line-height: calc(33 / 18);
     font-weight: bold;
     padding-left: 2rem;
-
-   
   }
 
   &__drawer-icon-bar {
