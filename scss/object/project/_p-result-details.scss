@@ -37,11 +37,11 @@
 
 .p-result-details__contents {
   margin-top: 5rem;
-  margin-bottom: 20.2rem;
+  margin-bottom: 5.2rem;
 
   @include pc {
     margin-top: 7rem;
-    margin-bottom: 15.4rem;
+    margin-bottom: -0.7rem;
   }
 }
 
@@ -147,7 +147,7 @@
   font-weight: 700;
   width: 12rem;
   background-color: #e5e5e5;
-  padding-top: 0.7rem;
+  padding-block: 0.35rem;
   padding-left: 1rem;
   border-collapse: collapse;
   border: 0.05rem solid #707070;
@@ -155,8 +155,7 @@
   @include pc {
     width: 14rem;
     padding: 0.4rem 2rem;
-    // padding-top: 0.7rem;
-    // padding-left: 2rem;
+   
   }
 }
 
@@ -164,7 +163,7 @@
   font-size: 1.8rem;
   line-height: calc(30 / 18);
   font-weight: 500;
-  padding: 0.4rem 2rem;
+  padding-left: 1rem;
   border-collapse: collapse;
   border: 0.05rem solid #707070;
 

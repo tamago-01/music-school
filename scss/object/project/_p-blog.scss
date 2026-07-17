@@ -1,10 +1,10 @@
 @use "../../foundation/variable" as *;
 
 .p-blog {
-  padding-block: 2rem 5rem;
+  padding-block: 2rem 4.5rem;
 
   @include pc {
-    padding-block: 3.4rem 5.5rem;
+    padding-block: 3rem 4.5rem;
   }
 
   &__contents {
@@ -13,7 +13,7 @@
     gap: 3.7rem;
 
     @include pc {
-      margin-top: 3.6rem;
+      margin-top: 3rem;
       margin-bottom: 3.7rem;
       display: flex;
       gap: 5rem;
@@ -56,8 +56,6 @@
     position: absolute;
     top: 0;
     left: 0;
-
-   
   }
 
   .p-blog__thumb {
