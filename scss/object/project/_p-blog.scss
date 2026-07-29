@@ -15,7 +15,7 @@
     @include pc {
       margin-top: 3rem;
       margin-bottom: 3.7rem;
-      display: flex;
+      grid-template-columns: repeat(3, 1fr);
       gap: 5rem;
     }
   }

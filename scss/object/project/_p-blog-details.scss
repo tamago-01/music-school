@@ -135,16 +135,18 @@
 .p-blog-details__image {
   margin-top: 6.9rem;
   width: 100%;
+  
 
   @include pc {
     margin-top: 1rem;
+    width: 33.5rem;
   }
 }
 
 .p-blog-details__thumb {
   @include pc {
     img {
-      width: 33.5rem;
+      width: 100%;
       aspect-ratio: 335 / 200;
       object-fit: cover;
     }
@@ -223,7 +225,7 @@
   font-weight: 700;
   text-decoration: underline;
   margin-top: 2.7rem;
-  transition: opacoty 0.4s;
+  transition: opacity 0.4s;
 
   @include pc-hover {
     opacity: 0.7;

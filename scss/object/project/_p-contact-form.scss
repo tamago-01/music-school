@@ -90,7 +90,8 @@
   height: 4rem;
   border: 0.05rem solid #000;
   font-size: 1.5rem;
-  line-height: calc(33 / 15);
+  vertical-align: middle;
+  // line-height: calc(33 / 15);
   padding-inline: 2rem;
   color: $color-text;
 
@@ -142,17 +143,17 @@
     transform: translateY(-50%);
   }
   &::before {
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     background-color: #ffffff;
     border: 0.05rem solid #000;
   }
 
   &::after {
-    width: 18px;
-    height: 18px;
-    // left: 2px;
-    background: url(../img/check.svg) no-repeat center center / contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    left: -0.25rem;
+    background: url(../img/contact/check.svg) no-repeat center center / contain;
     opacity: 0;
   }
 }

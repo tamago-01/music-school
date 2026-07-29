@@ -38,15 +38,16 @@
 
 .p-side-nav__search {
   display: flex;
-  height: 5.4rem;
-  margin: 2rem;
-  background-color: #e8e8e8;
+  height: 9.4rem;
+  padding: 2rem;
+  background-color: #ffffff;
 
   @include pc {
-    height: 4rem;
-    margin: 1.5rem;
+    height: 7rem;
+    padding: 1.5rem;
   }
 }
+
 .p-side-nav__search button {
   display: block;
   place-items: center;
@@ -77,8 +78,9 @@
 }
 .p-side-nav__search input {
   flex: 1;
-  margin-inline: 2rem;
+  padding-inline: 2rem;
   color: #858585;
+  background-color: #E8E8E8;
   min-width: 0;
 }
 
@@ -151,7 +153,7 @@
   margin-top: 0.4rem;
 }
 
-.category-item {
+.category-item__link {
   height: 4.7rem;
   width: 100%;
   display: flex;
