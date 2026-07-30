@@ -1025,7 +1025,7 @@ ul {
     font-size: 2.2rem;
     line-height: 1.5;
     padding-left: 5rem;
-    padding-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
   }
 }
 .p-reason__body-text {
@@ -1198,19 +1198,19 @@ ul {
 }
 
 .p-flow {
-  padding-block: 4.6rem 3rem;
+  padding-block: 4.6rem 0;
 }
 @media (min-width: 768px) {
   .p-flow {
-    padding-block: 3.4rem 5rem;
+    padding-block: 3.4rem 0rem;
   }
 }
 .p-flow__contents {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 @media (min-width: 768px) {
   .p-flow__contents {
-    margin-top: 6.5rem;
+    margin-top: 5.5rem;
   }
 }
 .p-flow__items {
@@ -1225,15 +1225,15 @@ ul {
 .p-flow__textarea::before {
   content: "";
   position: absolute;
-  left: -4rem;
+  left: -3rem;
   top: 0.5rem;
   width: 3px;
-  bottom: 3.5rem;
+  bottom: 4.5rem;
   background-color: #cb0000;
 }
 @media (min-width: 768px) {
   .p-flow__textarea::before {
-    left: 3.3rem;
+    left: 1.2rem;
   }
 }
 @media (min-width: 768px) {
@@ -1247,13 +1247,18 @@ ul {
 .p-flow__textarea-item::before {
   content: "";
   position: absolute;
-  left: -4.8rem;
+  left: -3.8rem;
   top: 0.5rem;
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
   background-color: #cb0000;
   z-index: 1;
+}
+@media (min-width: 768px) {
+  .p-flow__textarea-item::before {
+    left: -6.9rem;
+  }
 }
 @media (min-width: 768px) {
   .p-flow__textarea-item {
@@ -1282,13 +1287,13 @@ ul {
   }
 }
 .p-flow__arrow {
-  margin-left: -5.4rem;
+  margin-left: -4.4rem;
   width: 3.1rem;
-  margin-top: -5rem;
+  margin-top: -6rem;
 }
 @media (min-width: 768px) {
   .p-flow__arrow {
-    margin-left: 2rem;
+    margin-left: -0.2rem;
   }
 }
 
@@ -1297,7 +1302,7 @@ ul {
 }
 @media (min-width: 768px) {
   .p-qa {
-    padding-block: 5.2rem 4rem;
+    padding-block: 5rem 4rem;
   }
 }
 .p-qa__contents {
@@ -1440,11 +1445,11 @@ ul {
 }
 
 .p-blog {
-  padding-block: 2rem 4.5rem;
+  padding-block: 1.5rem 4.5rem;
 }
 @media (min-width: 768px) {
   .p-blog {
-    padding-block: 3rem 4.5rem;
+    padding-block: 2.5rem 4.5rem;
   }
 }
 .p-blog__contents {
@@ -1454,7 +1459,7 @@ ul {
 }
 @media (min-width: 768px) {
   .p-blog__contents {
-    margin-top: 3rem;
+    margin-top: 3.3rem;
     margin-bottom: 3.7rem;
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem;
@@ -2829,7 +2834,7 @@ ul {
 .form-item__text::after {
   width: 1.8rem;
   height: 1.8rem;
-  left: -0.25rem;
+  left: -0.3rem;
   background: url(../img/contact/check.svg) no-repeat center center/contain;
   opacity: 0;
 }

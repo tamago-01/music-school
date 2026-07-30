@@ -1,12 +1,12 @@
 //ハンバーガー
 $(".js-hamburger").click(function () {
-  $(".l-header__hamburger").toggleClass("is-active");
-  $(".l-header__nav-menu").toggleClass("is-open");
+  $(".p-header__hamburger").toggleClass("is-active");
+  $(".p-header__nav-menu").toggleClass("is-open");
 });
 
-$(".l-header__nav-menu a").on("click", function () {
-  $(".l-header__hamburger").removeClass("is-active");
-  $(".l-header__nav-menu").removeClass("is-open");
+$(".p-header__nav-menu a").on("click", function () {
+  $(".p-header__hamburger").removeClass("is-active");
+  $(".p-header__nav-menu").removeClass("is-open");
 });
 
 // スワイパー
