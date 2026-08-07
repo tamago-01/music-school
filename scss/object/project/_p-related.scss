@@ -70,9 +70,7 @@
     aspect-ratio: 160 / 110;
 
     @include pc {
-      width: 24rem;
-      height: 14rem;
-      aspect-ratio: 240 / 140;
+      aspect-ratio: 200 / 140;
     }
   }
 }

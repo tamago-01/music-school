@@ -38,19 +38,20 @@
 
 .p-side-nav__search {
   display: flex;
-  height: 9.4rem;
+  // height: 9.4rem;
   padding: 2rem;
   background-color: #ffffff;
 
   @include pc {
-    height: 7rem;
+    // height: 7rem;
     padding: 1.5rem;
   }
 }
 
 .p-side-nav__search button {
-  display: block;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 5.4rem;
   height: 5.4rem;
   background-color: #000;
@@ -69,11 +70,11 @@
 }
 
 .p-side-nav__search img {
-  width: 2.6rem;
+  width: 50%;
   height: auto;
 
   @include pc {
-    width: 2.2rem;
+    width:55%;
   }
 }
 .p-side-nav__search input {

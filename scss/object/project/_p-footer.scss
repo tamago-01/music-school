@@ -1,6 +1,11 @@
 @use "../../foundation/variable" as *;
 
 .p-footer {
+  padding-block: 4.7rem 5.2rem;
+
+   @include pc {
+    padding-block: 4.4rem 4.2rem;
+  }
 
     &__nav {
     display: grid;

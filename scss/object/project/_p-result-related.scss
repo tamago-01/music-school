@@ -72,8 +72,6 @@
     aspect-ratio: 160 / 110;
 
     @include pc {
-      width: 26rem;
-      height: 18.4rem;
       aspect-ratio: 260 / 184;
     }
   }

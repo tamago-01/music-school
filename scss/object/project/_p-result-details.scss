@@ -65,15 +65,6 @@
   }
 }
 
-.p-result-details_thmb {
-  @include pc {
-    img {
-      width: 33.5rem;
-      aspect-ratio: 335 / 200;
-      object-fit: cover;
-    }
-  }
-}
 .result-card__image {
   position: relative;
   width: 100%;
@@ -155,7 +146,6 @@
   @include pc {
     width: 14rem;
     padding: 0.4rem 2rem;
-   
   }
 }
 
@@ -169,7 +159,6 @@
 
   @include pc {
     width: 26rem;
-    
   }
 }
 
@@ -210,8 +199,6 @@
     aspect-ratio: 160 / 110;
 
     @include pc {
-      width: 26rem;
-      height: 18.4rem;
       aspect-ratio: 260 / 184;
     }
   }

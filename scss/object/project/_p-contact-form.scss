@@ -90,10 +90,11 @@
   height: 4rem;
   border: 0.05rem solid #000;
   font-size: 1.5rem;
-  vertical-align: middle;
+  // vertical-align: middle;
   // line-height: calc(33 / 15);
-  padding-inline: 2rem;
+  // padding-inline: 2rem;
   color: $color-text;
+  padding: 0 2rem;
 
   &::placeholder {
     color: #b2b2b2;

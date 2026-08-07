@@ -10,7 +10,7 @@
     <meta name="robots" content="noindex">
     <link rel="preconnect" href="https://code.jquery.com">
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="icon" href="../img/common/header-logo_pc.svg" type="image/svg+xml">
+    <link rel="icon" href="./img/common/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -24,13 +24,15 @@
     <div id="container">
         <header class="l-header p-header">
             <div class="l-inner">
-                <h1 class="p-header__logo">
+                <div class="p-header__logo">
                     <a href="index.html">
-                        <img src="./img/common/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
+                        <span class="p-header__logo-img">
+                            <img src="./img/common/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
+                        </span>
                         <span class="p-header__title"><span class="p-header__title-main">きたむら</span><br
                                 class="pc">ミュージックスクール</span>
                     </a>
-                </h1>
+                </div>
                 <nav class="p-header__nav pc js-nav">
                     <ul class="p-header__nav-list">
                         <li class="p-header__nav-item"><a href="plan.html">料金</a></li>
@@ -39,7 +41,7 @@
                         <li class="p-header__nav-item-btn"><a href="contact_form.html">お問い合わせ</a></li>
                     </ul>
                 </nav>
-                <button class="js-hamburger p-header__hamburger">
+                <button type="button"  class="js-hamburger p-header__hamburger">
                     <span class="p-header__drawer-icon-bar"></span>
                     <span class="p-header__drawer-icon-bar"></span>
                     <span class="p-header__drawer-icon-bar"></span>
@@ -55,7 +57,7 @@
                 </div>
             </div>
         </header>
-        <main class="main">
+        <main class="main p-result-details">
             <div class="p-result-details__breadcrumbs c-breadcrumbs">
                 <div class="l-inner">
                     <nav>
@@ -93,8 +95,8 @@
                             <div class="p-result-details_img result-card__image">
                                 <div class="p-result-details_thmb result-card__thumb">
                                     <picture>
-                                        <source media="(max-width: 767px)" srcset="../img/common/voice01-sp.webp">
-                                        <img src="../img/result-details/result-details-kv_pc.webp" alt="歌っている男性">
+                                        <source media="(max-width: 767px)" srcset="./img/common/voice01-sp.webp">
+                                        <img src="./img/result-details/result-details-kv_pc.webp" alt="歌っている男性">
                                     </picture>
                                 </div>
                                 <span class="p-result-details__category c-category--lg">ギター</span>
@@ -139,7 +141,8 @@
 
                                 <div class="p-result-nav__label--prev">◀︎ 前の記事</div>
                                 <div class="p-result-nav__content">
-                                    <img class="pc" src="../img/common/blog01-pc.webp" alt="ギターを弾く手元">
+                                    <span class="p-result-nav__thumb pc">
+                                    <img src="./img/common/blog01-pc.webp" alt="ギターを弾く手元"></span>
                                     <div class="p-post-nav__text">タイトルが入ります。タイトルが入ります。タイトルが入</div>
                                 </div>
 
@@ -147,7 +150,8 @@
                             <a href="result_details.html" class="p-result-nav__item">
                                 <div class="p-result-nav__label--next">次の記事 ▶︎</div>
                                 <div class="p-result-nav__content">
-                                    <img class="pc" src="../img/common/blog02-pc.webp" alt="悩んでいる男性">
+                                     <span class="p-result-nav__thumb pc">
+                                    <img src="./img/common/blog02-pc.webp" alt="悩んでいる男性"></span>
                                     <div class="p-result-nav__text">タイトルが入ります。タイトルが入ります。タイトルが入</div>
                                 </div>
                             </a>
@@ -157,12 +161,12 @@
                         <div class="p-result-related__contents">
                             <div class="p-result-related__posts">関連記事</div>
                             <div class="p-result-related__items">
-                                <a href="blog-details.html" class="p-result-related__item">
+                                <a href="result-list.html" class="p-result-related__item">
 
                                     <div class="p-result-related__image">
                                         <div class="p-result-related__thumb">
                                             <div>
-                                                <img src="../img/common/result02_pc.webp" alt="犬を抱っこしてピアノの前に座る女性">
+                                                <img src="./img/common/result02_pc.webp" alt="犬を抱っこしてピアノの前に座る女性">
                                             </div>
                                         </div>
                                         <span class="p-result-related__category c-category--sm">ロック</span>
@@ -173,11 +177,11 @@
                                     </div>
 
                                 </a>
-                                <a href="blog-details.html" class="p-result-related__item">
+                                <a href="result-list.html" class="p-result-related__item">
                                     <div class="p-result-related__image">
                                         <div class="p-result-related__thumb">
                                             <div>
-                                                <img src="../img/common/result03_pc.webp" alt="ギターを弾く男性">
+                                                <img src="./img/common/result03_pc.webp" alt="ギターを弾く男性">
                                             </div>
                                         </div>
                                         <span class="p-result-related__category c-category--sm">ジャズ</span>
@@ -187,11 +191,11 @@
                                         <p class="p-result-related__date">0000.00.00</p>
                                     </div>
                                 </a>
-                                <a href="blog-details.html" class="p-result-related__item">
+                                <a href="result-list.html" class="p-result-related__item">
                                     <div class="p-result-related__image">
                                         <div class="p-result-related__thumb">
                                             <div>
-                                                <img src="../img/common//result04_pc.webp" alt="ギターを弾く女性">
+                                                <img src="./img/common//result04_pc.webp" alt="ギターを弾く女性">
                                             </div>
                                         </div>
                                         <span class="p-result-related__category c-category--sm">ラテン</span>
@@ -211,13 +215,13 @@
             <div class="p-fix-area">
                 <div class="p-fix-area__inner">
                     <a href="#" class="c-back-to-top" aria-label="トップへ戻る">
-                        <img src="../img/common//arrow-top.svg" alt="トップへ戻るの矢印">
+                        <img src="./img/common//arrow-top.svg" alt="トップへ戻るの矢印">
                     </a>
                     <a href="contact_form.html" class="c-contact-btn">お問い合わせ</a>
                 </div>
             </div>
         </main>
-        <footer class="l-footer p-footer section-bg">
+        <footer class="p-footer section-bg">
             <div class="l-inner">
                 <div class="p-footer__contents">
                     <nav class="p-footer__nav">
@@ -249,22 +253,22 @@
                     <ul class="p-footer__sns">
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/twitter-icon.svg" alt="x">
+                                <img src="./img/common/twitter-icon.svg" alt="x">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/fb-icon.svg" alt="facebook">
+                                <img src="./img/common/fb-icon.svg" alt="facebook">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/youtube-icon.svg" alt="youtube">
+                                <img src="./img/common/youtube-icon.svg" alt="youtube">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/instagram-icon.svg" alt="instagram">
+                                <img src="./img/common/instagram-icon.svg" alt="instagram">
                             </a>
                         </li>
                     </ul>

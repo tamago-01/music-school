@@ -10,7 +10,7 @@
     <meta name="robots" content="noindex">
     <link rel="preconnect" href="https://code.jquery.com">
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="icon" href="../img/common/header-logo_pc.svg" type="image/svg+xml">
+    <link rel="icon" href="./img/common/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -24,13 +24,15 @@
     <div id="container">
         <header class="l-header p-header">
             <div class="l-inner">
-                <h1 class="p-header__logo">
+                <div class="p-header__logo">
                     <a href="index.html">
-                        <img src="./img/common/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
+                        <span class="p-header__logo-img">
+                            <img src="./img/common/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
+                        </span>
                         <span class="p-header__title"><span class="p-header__title-main">きたむら</span><br
                                 class="pc">ミュージックスクール</span>
                     </a>
-                </h1>
+                </div>
                 <nav class="p-header__nav pc js-nav">
                     <ul class="p-header__nav-list">
                         <li class="p-header__nav-item"><a href="plan.html">料金</a></li>
@@ -39,7 +41,7 @@
                         <li class="p-header__nav-item-btn"><a href="contact_form.html">お問い合わせ</a></li>
                     </ul>
                 </nav>
-                <button class="js-hamburger p-header__hamburger">
+                <button type="button"  class="js-hamburger p-header__hamburger">
                     <span class="p-header__drawer-icon-bar"></span>
                     <span class="p-header__drawer-icon-bar"></span>
                     <span class="p-header__drawer-icon-bar"></span>
@@ -55,11 +57,11 @@
                 </div>
             </div>
         </header>
-        <main class="main">
+        <main class="main p-plan">
             <div class="c-kv">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="../img/plan/plan-kv_sp.webp">
-                    <img src="../img/plan/plan-kv_pc.webp" alt="白いギター、キーボード、PCの画像">
+                    <source media="(max-width: 767px)" srcset="./img/plan/plan-kv_sp.webp">
+                    <img src="./img/plan/plan-kv_pc.webp" alt="白いギター、キーボード、PCの画像">
                 </picture>
                 <div class="c-kv__overlay"></div>
                 <div class="c-kv__catch">
@@ -91,7 +93,7 @@
                         <div class="p-price__items">
                             <div class="p-price__item">入会金 39,000円</div>
                             <div class="p-price__plus">
-                                <img src="../img/plan/plus.svg" alt="プラスマーク">
+                                <img src="./img/plan/plus.svg" alt="プラスマーク">
                             </div>
                             <div class="p-price__item">月額料金</div>
                         </div>
@@ -128,33 +130,33 @@
                                 </tr>
                                 <tr>
                                     <th>マンツーマン授業</th>
-                                    <td><img src="../img/plan/circle-b.svg" alt="黒色の○">週１回</td>
-                                    <td><img src="../img/plan/circle-r.svg" alt="赤色の○">週２回</td>
-                                    <td><img src="../img/plan/circle-b.svg" alt="赤色の○">無制限</td>
+                                    <td><img src="./img/plan/circle-b.svg" alt="黒色の○">週１回</td>
+                                    <td><img src="./img/plan/circle-r.svg" alt="赤色の○">週２回</td>
+                                    <td><img src="./img/plan/circle-b.svg" alt="赤色の○">無制限</td>
                                 </tr>
                                 <tr>
                                     <th>ビジネス基本講座</th>
-                                    <td><img src="../img/plan/circle-b.svg" alt="黒色の○"></td>
-                                    <td><img src="../img/plan/circle-r.svg" alt="赤色の○"></td>
-                                    <td><img src="../img/plan/circle-b.svg" alt="黒色の○"></td>
+                                    <td><img src="./img/plan/circle-b.svg" alt="黒色の○"></td>
+                                    <td><img src="./img/plan/circle-r.svg" alt="赤色の○"></td>
+                                    <td><img src="./img/plan/circle-b.svg" alt="黒色の○"></td>
                                 </tr>
                                 <tr>
                                     <th>練習ROOM利用</th>
-                                    <td><img src="../img/plan/circle-b.svg" alt="黒色の○">月10時間</td>
-                                    <td><img src="../img/plan/circle-r.svg" alt="赤色の○">月20時間</td>
-                                    <td><img src="../img/plan/circle-b.svg" alt="黒色の○">無制限</td>
+                                    <td><img src="./img/plan/circle-b.svg" alt="黒色の○">月10時間</td>
+                                    <td><img src="./img/plan/circle-r.svg" alt="赤色の○">月20時間</td>
+                                    <td><img src="./img/plan/circle-b.svg" alt="黒色の○">無制限</td>
                                 </tr>
                                 <tr>
                                     <th>ビジネスコンサル</th>
                                     <td><span class="p-plan__bar"></span></td>
-                                    <td><img src="../img/plan/circle-r.svg" alt="赤色の○">月２回</td>
-                                    <td><img src="../img/plan/circle-b.svg" alt="黒色の○">月3回</td>
+                                    <td><img src="./img/plan/circle-r.svg" alt="赤色の○">月２回</td>
+                                    <td><img src="./img/plan/circle-b.svg" alt="黒色の○">月3回</td>
                                 </tr>
                                 <tr>
                                     <th>コミュニティ<br class="sp">参加資格</th>
                                     <td><span class="p-plan__bar"></span></td>
                                     <td><span class="p-plan__bar"></span></td>
-                                    <td><img src="../img/plan/circle-b.svg" alt="黒色の○"></td>
+                                    <td><img src="./img/plan/circle-b.svg" alt="黒色の○"></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -168,14 +170,14 @@
               <div class="p-fix-area">
                 <div class="p-fix-area__inner">
                     <a href="#" class="c-back-to-top" aria-label="トップへ戻る">
-                        <img src="../img/common/arrow-top.svg" alt="トップへ戻るの矢印">
+                        <img src="./img/common/arrow-top.svg" alt="トップへ戻るの矢印">
                     </a>
                     <a href="contact_form.html" class="c-contact-btn">お問い合わせ</a>
                 </div>
             </div>
 
         </main>
-        <footer class="l-footer p-footer section-bg">
+        <footer class="p-footer section-bg">
             <div class="l-inner">
                 <div class="p-footer__contents">
                     <nav class="p-footer__nav">
@@ -207,22 +209,22 @@
                     <ul class="p-footer__sns">
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/twitter-icon.svg" alt="x">
+                                <img src="./img/common/twitter-icon.svg" alt="x">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/fb-icon.svg" alt="facebook">
+                                <img src="./img/common/fb-icon.svg" alt="facebook">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/youtube-icon.svg" alt="youtube">
+                                <img src="./img/common/youtube-icon.svg" alt="youtube">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/instagram-icon.svg" alt="instagram">
+                                <img src="./img/common/instagram-icon.svg" alt="instagram">
                             </a>
                         </li>
                     </ul>

@@ -8,16 +8,19 @@
     <meta name="description" content="きたむらミュージックスクールのホームページです。">
     <meta name="keywords" content="ミュージックスクール, 収益化, サポート">
     <meta name="robots" content="noindex">
-    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap">
     <link rel="preconnect" href="https://code.jquery.com">
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="icon" href="../img/common/header-logo_pc.svg" type="image/svg+xml">
+    <link rel="icon" href="./img/common/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
     <script src="./js/script.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/top.js" defer></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -27,7 +30,9 @@
             <div class="l-inner">
                 <h1 class="p-header__logo">
                     <a href="index.html">
-                        <img src="./img/common/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
+                       <span class="p-header__logo-img">
+                            <img src="./img/common/header-logo_sp.svg" alt="きたむらミュージックスクールロゴ">
+                        </span>
                         <span class="p-header__title"><span class="p-header__title-main">きたむら</span><br
                                 class="pc">ミュージックスクール</span>
                     </a>
@@ -40,7 +45,7 @@
                         <li class="p-header__nav-item-btn"><a href="contact_form.html">お問い合わせ</a></li>
                     </ul>
                 </nav>
-                <button class="js-hamburger p-header__hamburger">
+                <button type="button" class="js-hamburger p-header__hamburger">
                     <span class="p-header__drawer-icon-bar"></span>
                     <span class="p-header__drawer-icon-bar"></span>
                     <span class="p-header__drawer-icon-bar"></span>
@@ -57,11 +62,11 @@
             </div>
         </header>
 
-        <main class="main">
+        <main class="main p-top">
             <div class="p-mv">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="../img/top/fv_sp.webp">
-                    <img src="../img/top/fv_pc.webp" alt="女性がギターを弾いている">
+                    <source media="(max-width: 767px)" srcset="./img/top/fv_sp.webp">
+                    <img src="./img/top/fv_pc.webp" alt="女性がギターを弾いている">
                 </picture>
                 <div class="p-mv__overlay"></div>
                 <div class="p-mv__catch">
@@ -78,8 +83,8 @@
                     <div class="p-concept__contents">
                         <div class="p-concept__contents-semicircle">
                             <picture>
-                                <source media="(max-width: 767px)" srcset="../img/top/semicircle-sp.webp">
-                                <img src="../img/top/semicircle-pc.webp" alt="高さの低い赤い半円">
+                                <source media="(max-width: 767px)" srcset="./img/top/semicircle-sp.webp">
+                                <img src="./img/top/semicircle-pc.webp" alt="高さの低い赤い半円">
                             </picture>
                         </div>
                         <div class="p-concept__steps">
@@ -90,8 +95,8 @@
                             </div>
                             <div class="p-concept__step-arrow">
                                 <picture>
-                                    <source media="(max-width: 767px)" srcset="../img/top/arrow_sp.webp">
-                                    <img src="../img/top/arrow_pc.webp" alt="赤い矢印">
+                                    <source media="(max-width: 767px)" srcset="./img/top/arrow_sp.webp">
+                                    <img src="./img/top/arrow_pc.webp" alt="赤い矢印">
                                 </picture>
                             </div>
                             <div class="p-concept__step-ja">
@@ -119,8 +124,8 @@
                         <div class="p-reason__item reason-card">
                             <div class="p-reason__item-img">
                                 <picture>
-                                    <source media="(max-width: 767px)" srcset="../img/common/reason01-sp.webp">
-                                    <img src="../img/common/reason01-pc.webp" alt="犬を抱いてピアノを弾く男性">
+                                    <source media="(max-width: 767px)" srcset="./img/common/reason01-sp.webp">
+                                    <img src="./img/common/reason01-pc.webp" alt="犬を抱いてピアノを弾く男性">
                                 </picture>
                             </div>
                             <div class="p-reason__item-textarea">
@@ -131,8 +136,8 @@
                         <div class="p-reason__item">
                             <div class="p-reason__item-img">
                                 <picture>
-                                    <source media="(max-width: 767px)" srcset="../img/top/reason02-sp.webp">
-                                    <img src="../img/top/reason02-pc.webp" alt="女性講師と話す男性">
+                                    <source media="(max-width: 767px)" srcset="./img/top/reason02-sp.webp">
+                                    <img src="./img/top/reason02-pc.webp" alt="女性講師と話す男性">
                                 </picture>
                             </div>
                             <div class="p-reason__item-textarea">
@@ -144,8 +149,8 @@
                         <div class="p-reason__item">
                             <div class="p-reason__item-img">
                                 <picture>
-                                    <source media="(max-width: 767px)" srcset="../img/top/reason03-sp.webp">
-                                    <img src="../img/top/reason03-pc.webp" alt="ギターを持って楽譜にメモを書いている">
+                                    <source media="(max-width: 767px)" srcset="./img/top/reason03-sp.webp">
+                                    <img src="./img/top/reason03-pc.webp" alt="ギターを持って楽譜にメモを書いている">
                                 </picture>
                             </div>
                             <div class="p-reason__item-textarea">
@@ -174,8 +179,8 @@
                                             <div class="p-voice__item-img">
                                                 <picture>
                                                     <source media="(max-width: 767px)"
-                                                        srcset="../img/common/voice01-sp.webp">
-                                                    <img src="../img/common/voice01-pc.webp" alt="歌っている男性">
+                                                        srcset="./img/common/voice01-sp.webp">
+                                                    <img src="./img/common/voice01-pc.webp" alt="歌っている男性">
                                                 </picture>
                                             </div>
                                             <div class="p-voice__item-textarea">
@@ -191,8 +196,8 @@
                                             <div class="p-voice__item-img">
                                                 <picture>
                                                     <source media="(max-width: 767px)"
-                                                        srcset="../img/top/voice02-sp.webp">
-                                                    <img src="../img/top/voice02-pc.webp" alt="犬を抱っこしてピアノの前に座っている女性">
+                                                        srcset="./img/top/voice02-sp.webp">
+                                                    <img src="./img/top/voice02-pc.webp" alt="犬を抱っこしてピアノの前に座っている女性">
                                                 </picture>
                                             </div>
                                             <div class="p-voice__item-textarea">
@@ -209,8 +214,8 @@
                                             <div class="p-voice__item-img">
                                                 <picture>
                                                     <source media="(max-width: 767px)"
-                                                        srcset="../img/top/voice03-sp.webp">
-                                                    <img src="../img/top/voice03-pc.webp" alt="ギターを弾く男性">
+                                                        srcset="./img/top/voice03-sp.webp">
+                                                    <img src="./img/top/voice03-pc.webp" alt="ギターを弾く男性">
                                                 </picture>
                                             </div>
                                             <div class="p-voice__item-textarea">
@@ -226,8 +231,8 @@
                                             <div class="p-voice__item-img">
                                                 <picture>
                                                     <source media="(max-width: 767px)"
-                                                        srcset="../img/common/voice01-sp.webp">
-                                                    <img src="../img/common/voice01-pc.webp" alt="歌っている男性">
+                                                        srcset="./img/common/voice01-sp.webp">
+                                                    <img src="./img/common/voice01-pc.webp" alt="歌っている男性">
                                                 </picture>
                                             </div>
                                             <div class="p-voice__item-textarea">
@@ -243,8 +248,8 @@
                                             <div class="p-voice__item-img">
                                                 <picture>
                                                     <source media="(max-width: 767px)"
-                                                        srcset="../img/top/voice02-sp.webp">
-                                                    <img src="../img/top/voice02-pc.webp" alt="犬を抱っこしてピアノの前に座っている女性">
+                                                        srcset="./img/top/voice02-sp.webp">
+                                                    <img src="./img/top/voice02-pc.webp" alt="犬を抱っこしてピアノの前に座っている女性">
                                                 </picture>
                                             </div>
                                             <div class="p-voice__item-textarea">
@@ -261,8 +266,8 @@
                                             <div class="p-voice__item-img">
                                                 <picture>
                                                     <source media="(max-width: 767px)"
-                                                        srcset="../img/top/voice03-sp.webp">
-                                                    <img src="../img/top/voice03-pc.webp" alt="ギターを弾く男性">
+                                                        srcset="./img/top/voice03-sp.webp">
+                                                    <img src="./img/top/voice03-pc.webp" alt="ギターを弾く男性">
                                                 </picture>
                                             </div>
                                             <div class="p-voice__item-textarea">
@@ -279,10 +284,10 @@
                             </div>
                             <div class="swiper-button-prev gallery__prev">
 
-                                <img src="../img/top/arrow-l.svg" alt="スワイパー左矢印">
+                                <img src="./img/top/arrow-l.svg" alt="スワイパー左矢印">
                             </div>
                             <div class="swiper-button-next gallery__next">
-                                <img src="../img/top/arrow-r.svg" alt="スワイパー右矢印">
+                                <img src="./img/top/arrow-r.svg" alt="スワイパー右矢印">
                             </div>
                         </div>
 
@@ -319,7 +324,7 @@
                                 </div>
 
                                 <div class="p-flow__arrow">
-                                    <img src="../img/top/arrow.svg" alt="矢印">
+                                    <img src="./img/top/arrow.svg" alt="矢印">
                                 </div>
                             </div>
                         </div>
@@ -331,48 +336,48 @@
                     <h2 class="c-section-title">よくあるご質問</h2>
                     <div class="p-qa__contents">
                         <div class="p-qa__box">
-                            <div class="p-qa__item-head js-accordion">
+                            <div class="p-qa__item-head js-accordion-open">
                                 <span class="p-qa__item-head-icon">Q</span>
                                 <span class="p-qa__item-head-text">どのような生徒さんがどれぐらいの期間で稼いでいますか？</span>
                             </div>
                             <div class="p-qa__a-box">
-                                <div class="p-qa__a-box-item js-accordion">
+                                <div class="p-qa__a-box-item js-accordion-close">
                                     <span class="p-qa__item-a-icon">A</span>
                                     <span class="p-qa__item-a-text">学生さんから社会人の方が早くて半年で収益を得ています。</span>
                                 </div>
                             </div>
                         </div>
                         <div class="p-qa__box">
-                            <div class="p-qa__item-head js-accordion">
+                            <div class="p-qa__item-head js-accordion-open">
                                 <span class="p-qa__item-head-icon">Q</span>
                                 <span class="p-qa__item-head-text">途中でプランを変更することは可能ですか？</span>
                             </div>
                             <div class="p-qa__a-box">
-                                <div class="p-qa__a-box-item js-accordion">
+                                <div class="p-qa__a-box-item js-accordion-close">
                                     <span class="p-qa__item-a-icon">A</span>
                                     <span class="p-qa__item-a-text">途中でプラン変更も可能です。毎月15日までに申請すれば翌月からプランが変更となります。</span>
                                 </div>
                             </div>
                         </div>
                         <div class="p-qa__box">
-                            <div class="p-qa__item-head js-accordion">
+                            <div class="p-qa__item-head js-accordion-open">
                                 <span class="p-qa__item-head-icon">Q</span>
                                 <span class="p-qa__item-head-text">入学金などの分割払いはできますか？</span>
                             </div>
                             <div class="p-qa__a-box">
-                                <div class="p-qa__a-box-item js-accordion">
+                                <div class="p-qa__a-box-item js-accordion-close">
                                     <span class="p-qa__item-a-icon">A</span>
                                     <span class="p-qa__item-a-text">はい。可能です。36回払いまで分割可能です。</span>
                                 </div>
                             </div>
                         </div>
                         <div class="p-qa__box">
-                            <div class="p-qa__item-head js-accordion">
+                            <div class="p-qa__item-head js-accordion-open">
                                 <span class="p-qa__item-head-icon">Q</span>
                                 <span class="p-qa__item-head-text">休学することも可能ですか？</span>
                             </div>
                             <div class="p-qa__a-box">
-                                <div class="p-qa__a-box-item js-accordion">
+                                <div class="p-qa__a-box-item js-accordion-close">
                                     <span class="p-qa__item-a-icon">A</span>
                                     <span class="p-qa__item-a-text">はい。可能です。最大3ヶ月休学可能です。</span>
                                 </div>
@@ -392,8 +397,8 @@
                             <div class="p-blog__item-img">
                                 <div class="p-blog__thumb">
                                     <picture>
-                                        <source media="(max-width: 767px)" srcset="../img/common/blog03-sp.webp">
-                                        <img src="../img/common/blog03-pc.webp" alt="歌っている女性">
+                                        <source media="(max-width: 767px)" srcset="./img/common/blog03-sp.webp">
+                                        <img src="./img/common/blog03-pc.webp" alt="歌っている女性">
                                     </picture>
                                 </div>
                                 <span class="p-blog__category c-category">SNS</span>
@@ -407,8 +412,8 @@
                             <div class="p-blog__item-img">
                                 <div class="p-blog__thumb">
                                     <picture>
-                                        <source media="(max-width: 767px)" srcset="../img/common/blog02-sp.webp">
-                                        <img src="../img/common/blog02-pc.webp" alt="悩んでいる男性">
+                                        <source media="(max-width: 767px)" srcset="./img/common/blog02-sp.webp">
+                                        <img src="./img/common/blog02-pc.webp" alt="悩んでいる男性">
                                     </picture>
                                 </div>
                                 <span class="p-blog__category c-category">集客方法</span>
@@ -422,8 +427,8 @@
                             <div class="p-blog__item-img">
                                 <div class="p-blog__thumb">
                                     <picture>
-                                        <source media="(max-width: 767px)" srcset="../img/common/blog01-sp.webp">
-                                        <img src="../img/common/blog01-pc.webp" alt="ギターを弾く手元">
+                                        <source media="(max-width: 767px)" srcset="./img/common/blog01-sp.webp">
+                                        <img src="./img/common/blog01-pc.webp" alt="ギターを弾く手元">
                                     </picture>
                                 </div>
                                 <span class="p-blog__category c-category">ギター</span>
@@ -445,14 +450,14 @@
             <div class="p-fix-area">
                 <div class="p-fix-area__inner">
                     <a href="#" class="c-back-to-top" aria-label="トップへ戻る">
-                        <img src="../img/common/arrow-top.svg" alt="トップへ戻るの矢印">
+                        <img src="./img/common/arrow-top.svg" alt="トップへ戻るの矢印">
                     </a>
                     <a href="contact_form.html" class="c-contact-btn">お問い合わせ</a>
                 </div>
             </div>
         </main>
 
-        <footer class="l-footer p-footer section-bg">
+        <footer class="p-footer section-bg">
             <div class="l-inner">
                 <div class="p-footer__contents">
                     <nav class="p-footer__nav">
@@ -484,22 +489,22 @@
                     <ul class="p-footer__sns">
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/twitter-icon.svg" alt="x">
+                                <img src="./img/common/twitter-icon.svg" alt="x">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/fb-icon.svg" alt="facebook">
+                                <img src="./img/common/fb-icon.svg" alt="facebook">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/youtube-icon.svg" alt="youtube">
+                                <img src="./img/common/youtube-icon.svg" alt="youtube">
                             </a>
                         </li>
                         <li>
                             <a href="#" class="p-footer__sns-link" target="_blank" rel="noopener noreferrer">
-                                <img src="../img/common/instagram-icon.svg" alt="instagram">
+                                <img src="./img/common/instagram-icon.svg" alt="instagram">
                             </a>
                         </li>
                     </ul>

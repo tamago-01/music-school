@@ -1,8 +1,0 @@
-@use "../foundation/variable" as *;
-
-.main {
-  padding-top: 5rem; // SP：ヘッダー高さ
-  @include pc {
-    padding-top: 8rem; // PC：ヘッダー高さ
-  }
-}
