@@ -13,8 +13,11 @@
   }
 }
 
-.p-contact-form__submit {
+.p-contact-send__submit {
   margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   @include pc {
     margin-bottom: 9rem;
