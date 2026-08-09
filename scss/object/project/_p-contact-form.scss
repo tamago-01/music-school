@@ -171,25 +171,19 @@
   display: none;
 }
 .p-contact-form__submit {
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
   @include pc {
+    margin-top: 4.5rem;
   }
 }
-.p-contact-form__btn {
-  margin-top: 1rem;
 
-  @include pc {
-    margin-top: 0.5rem;
-  }
-}
 
 .p-contact-form__back-to-top {
   position: fixed;
-  // right: 2rem;
   bottom: 32rem;
   z-index: 100;
   width: 68px;
@@ -202,7 +196,6 @@
   clip-path: circle(50%);
 
   @include pc {
-    // right: 11.5rem;
     bottom: 30rem;
   }
 
